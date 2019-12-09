@@ -1,0 +1,31 @@
+{
+  "name": "recursion-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "serve -l 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettjoecox/recursion-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettjoecox/recursion-training/issues"
+  },
+  "homepage": "https://github.com/garrettjoecox/recursion-training#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "jquery": "^3.4.1",
+    "mocha": "^5.2.0",
+    "serve": "^9.2.0",
+    "sinon": "^6.1.3",
+    "sinon-chai": "^3.2.0",
+    "underscore": "^1.9.1"
+  }
+}
