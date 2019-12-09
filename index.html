@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recursion Test Suite</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="node_modules/sinon-chai/lib/sinon-chai.js"></script>
+    <script src="node_modules/sinon/pkg/sinon.js"></script>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/underscore/underscore-min.js"></script>
+    <script src="src/getElementsByClassName.js"></script>
+    <script src="src/stringifyJSON.js"></script>
+    <script src="src/parseJSON.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="spec/fixtures.js"></script>
+    <script src="spec/getElementsByClassNameSpec.js"></script>
+    <script src="spec/stringifyJSONSpec.js"></script>
+    <script src="spec/parseJSONSpec.js"></script>
+    <script>
+      mocha.checkLeaks();
+      mocha.run();
+    </script>
+  </body>
+</html>
