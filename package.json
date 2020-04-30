@@ -21,7 +21,7 @@
   "homepage": "https://github.com/garrettjoecox/recursion-training#readme",
   "dependencies": {
     "chai": "^4.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mocha": "^5.2.0",
     "serve": "^9.2.0",
     "sinon": "^6.1.3",
